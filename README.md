@@ -8,10 +8,6 @@ ansibleを利用してMacBookの構成を管理するためのリポジトリで
 - mas( https://github.com/mas-cli/mas )によるAppStoreからインストールするアプリケーションの管理
 
 
-## prerequirement
-
-
-
 
 ## How to use
 
