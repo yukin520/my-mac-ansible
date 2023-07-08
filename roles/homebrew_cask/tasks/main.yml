@@ -1,8 +1,9 @@
 ---
 # tasks file for homebrew_cask
-- name: Update homebrew cask.
-  homebrew_cask:
-    update_homebrew: yes
+
+# - name: Update homebrew cask.
+#   homebrew_cask:
+#     update_homebrew: yes
 
 - name: installed docker
   homebrew_cask:
