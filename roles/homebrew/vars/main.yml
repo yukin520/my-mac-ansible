@@ -3,7 +3,7 @@
 
 homebrew_installed_packages:
   - ansible
-  - brew-cask
+  - cask
   - wget
   - git
   - mas
