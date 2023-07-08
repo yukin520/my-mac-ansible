@@ -28,13 +28,3 @@
 - name: installed postman
   homebrew_cask:
     name: postman
-
-- name: installed virtualbox
-  homebrew_cask:
-    name: virtualbox
-
-
-- name: installed vagrant 
-  homebrew_cask:
-    name: vagrant
-
