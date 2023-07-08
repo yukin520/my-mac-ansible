@@ -1,0 +1,31 @@
+---
+# tasks file for mac_app_store
+- name: Install LINE from App Store
+  community.general.mas:
+    id: 539883307  # LINE App ID
+    state: latest
+
+- name: Install Slack from App Store
+  community.general.mas:
+    id: 539883307   # Slack App ID
+    state: latest
+
+- name: Install kindle from App Store
+  community.general.mas:
+    id: 405399194   # kindle App ID
+    state: latest
+
+- name: Install amazon prime video from App Store
+  community.general.mas:
+    id: 545519333    # Prime video App ID
+    state: latest
+
+- name: Install amazon prime video from App Store
+  community.general.mas:
+    id: 545519333    # Prime video App ID
+    state: latest
+
+- name: Install Microsoft remote desktop from App Store
+  community.general.mas:
+    id: 1295203466  # remote desktop App ID
+    state: latest
