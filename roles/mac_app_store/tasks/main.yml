@@ -7,17 +7,12 @@
 
 - name: Install Slack from App Store
   community.general.mas:
-    id: 539883307   # Slack App ID
+    id: 803453959   # Slack App ID
     state: latest
 
 - name: Install kindle from App Store
   community.general.mas:
     id: 405399194   # kindle App ID
-    state: latest
-
-- name: Install amazon prime video from App Store
-  community.general.mas:
-    id: 545519333    # Prime video App ID
     state: latest
 
 - name: Install amazon prime video from App Store
