@@ -1,0 +1,8 @@
+
+- hosts: loccalhost
+  connection: local
+  gather_facts: false
+  become: false
+  roles:
+    - homebrew
+    - homebrew_cask
