@@ -1,0 +1,17 @@
+---
+# vars file for homebrew
+
+homebrew_installed_packages:
+  - ansible
+  - brew-cask
+  - wget
+  - git
+  - mas
+  - ca-certificates
+  - cfssl
+  - kind
+  - kubernetes-cli
+  - minikube
+  - python
+  - pyenv
+  - go

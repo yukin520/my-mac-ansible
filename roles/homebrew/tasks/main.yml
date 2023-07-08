@@ -1,0 +1,13 @@
+---
+# tasks file for homebrew
+# Update homebrew and upgrade all packages
+
+- name: Update homebrew
+  homebrew:
+    update_homebrew: yes
+
+- name: install  homebrew packages
+  homebrew:
+    name: "{{ item }}"
+    state: present
+  with_items: "{{ homebrew_installed_packages }}"
