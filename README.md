@@ -29,3 +29,9 @@ $ git clone https://github.com/Yuki0520-ba/my_mac_setup_with_ansible.git
 $ cd my_mac_setup_with_ansible
 $ ansible-playbook playbook.yml
 ```
+
+## Other
+
+MACを設定する際のメモ事項もこのリポジトリ上のdocsディレクトリ下で管理する。
+
+
