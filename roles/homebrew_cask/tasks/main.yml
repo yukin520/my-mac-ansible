@@ -28,3 +28,7 @@
 - name: installed postman
   homebrew_cask:
     name: postman
+
+- name: installed iterm2
+  homebrew_cask:
+    name: iterm2
