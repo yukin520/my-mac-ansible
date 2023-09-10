@@ -1,0 +1,8 @@
+installed_cask_packages:
+  - docker
+  - google-chrome
+  - visual-studio-code
+  - zoom
+  - notion
+  - postman
+  - iterm2

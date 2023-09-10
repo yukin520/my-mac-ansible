@@ -5,30 +5,9 @@
 #   homebrew_cask:
 #     update_homebrew: yes
 
-- name: installed docker
-  homebrew_cask:
-    name: docker
 
-- name: installed google chrome
+- name: installed homebrew cask packages
   homebrew_cask:
-    name: google-chrome
-
-- name: installed visual studio code
-  homebrew_cask:
-    name: visual-studio-code
-
-- name: installed zoom
-  homebrew_cask:
-    name: zoom
-
-- name: installed notion
-  homebrew_cask:
-    name: notion
-
-- name: installed postman
-  homebrew_cask:
-    name: postman
-
-- name: installed iterm2
-  homebrew_cask:
-    name: iterm2
+    name: "{{ item }}"
+  with_items:
+    "{{ installed_cask_packages }}"
