@@ -1,0 +1,21 @@
+---
+install_applications_from_appstore:
+  - name: LINE
+    id: 539883307
+    state: latest
+
+  - name: Slack
+    id: 803453959
+    state: latest
+
+  - name: kindle
+    id: 405399194
+    state: latest
+
+  - name: Amazon prime video
+    id: 545519333
+    state: latest
+
+  - name: Microsoft Remote Desktop
+    id: 1295203466
+    state: latest
