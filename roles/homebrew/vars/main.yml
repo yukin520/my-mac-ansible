@@ -1,5 +1,7 @@
 ---
 # vars file for homebrew
+homebrew_enabled_repositories:
+  - hashicorp/tap
 
 homebrew_installed_packages:
   - ansible
@@ -15,3 +17,4 @@ homebrew_installed_packages:
   - python
   - pyenv
   - go
+  - hashicorp/tap/terraform

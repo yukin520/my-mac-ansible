@@ -1,13 +1,4 @@
 ---
 # tasks file for homebrew
-# Update homebrew and upgrade all packages
-
-- name: Update homebrew
-  homebrew:
-    update_homebrew: yes
-
-- name: install  homebrew packages
-  homebrew:
-    name: "{{ item }}"
-    state: present
-  with_items: "{{ homebrew_installed_packages }}"
+- include_tasks: "roles/homebrew/tasks/enable_brew_repository.yml"
+- include_tasks: "roles/homebrew/tasks/install_packages.yml"

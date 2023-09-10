@@ -1,0 +1,7 @@
+
+- name: Enable specifid brew repositories.
+  community.general.homebrew_tap:
+    name: "{{ item }}"
+    state: present
+  with_items:
+    "{{ homebrew_enabled_repositories }}"
