@@ -17,4 +17,5 @@ homebrew_installed_packages:
   - python
   - pyenv
   - go
+  - awscli
   - hashicorp/tap/terraform
