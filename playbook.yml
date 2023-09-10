@@ -3,6 +3,8 @@
   connection: local
   gather_facts: false
   become: false
+  vars_files:
+    - "host_vars/{{ ansible_host }}/*.yml"
   roles:
     - homebrew
     - homebrew_cask
