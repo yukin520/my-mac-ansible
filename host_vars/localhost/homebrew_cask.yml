@@ -6,3 +6,4 @@ installed_cask_packages:
   - notion
   - postman
   - iterm2
+  - orbstack
