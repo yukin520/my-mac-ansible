@@ -7,3 +7,4 @@ installed_cask_packages:
   - postman
   - iterm2
   - orbstack
+  - utm
