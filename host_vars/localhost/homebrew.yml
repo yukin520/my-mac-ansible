@@ -18,4 +18,5 @@ homebrew_installed_packages:
   - pyenv
   - go
   - awscli
+  - azure-cli
   - hashicorp/tap/terraform
