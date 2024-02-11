@@ -20,3 +20,4 @@ homebrew_installed_packages:
   - awscli
   - azure-cli
   - hashicorp/tap/terraform
+  - tfenv
