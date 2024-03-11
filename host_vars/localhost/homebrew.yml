@@ -21,3 +21,5 @@ homebrew_installed_packages:
   - azure-cli
   - hashicorp/tap/terraform
   - tfenv
+  - kubebuilder
+  - kustomize
