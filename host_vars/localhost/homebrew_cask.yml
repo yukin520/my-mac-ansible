@@ -8,3 +8,4 @@ installed_cask_packages:
   - iterm2
   - orbstack
   - utm
+  - balenaetcher
