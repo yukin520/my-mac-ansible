@@ -23,7 +23,7 @@ $ brew install ansible
 3. 本リポジトリをクローンし、playbbok.ymlを実行する。
 
 ```
-$ git clone https://github.com/Yuki0520-ba/my_mac_setup_with_ansible.git
+$ git clone https://github.com/yukin520/my_mac_setup_with_ansible.git
 ```
 ```
 $ cd my_mac_setup_with_ansible
