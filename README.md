@@ -1,7 +1,7 @@
-# my_mac_setup_with_ansible
+# my-mac-ansible
 
-ansibleを利用してMacBookの構成を管理するためのリポジトリです。
-以下の内容をAnsibleから行います。
+MacBookの構成を管理するためのリポジトリです。
+次の内容をAnsibleから行います。
 
 - homebrewによるパッケージ管理
 - homebrew_caskによるアプリケーション管理
@@ -23,7 +23,7 @@ $ brew install ansible
 3. 本リポジトリをクローンし、playbbok.ymlを実行する。
 
 ```
-$ git clone https://github.com/yukin520/my_mac_setup_with_ansible.git
+$ git clone https://github.com/yukin520/my-mac-ansible.git
 ```
 ```
 $ cd my_mac_setup_with_ansible
@@ -32,6 +32,6 @@ $ ansible-playbook playbook.yml
 
 ## Other
 
-MACを設定する際のメモ事項もこのリポジトリ上のdocsディレクトリ下で管理する。
+Macを設定する際のメモもこのリポジトリ上のdocsディレクトリ下で管理したい。
 
 
