@@ -24,3 +24,5 @@ homebrew_installed_packages:
   - kubebuilder
   - kustomize
   - helm
+  - npm
+  - hugo
