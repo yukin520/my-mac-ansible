@@ -19,3 +19,4 @@ install_applications_from_appstore:
   - name: Microsoft Remote Desktop
     id: 1295203466
     state: latest
+
